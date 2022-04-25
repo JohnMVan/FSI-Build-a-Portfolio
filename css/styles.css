@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-image: url(../images/photo-1521449256184-170b4a4c437c.avif); 
+    background-repeat:  no-repeat;
+    background-size: 100% auto;
+
+}
+
+.container {
+    height: 100%;
+    width: 100vw;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 1fr 1fr 100px;
+    gap: 10px;   
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.container div {
+    padding: 10px;
+    border: 1px solid rgb(126, 36, 36); 
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-size: 100px;
+    margin-top: -20px;
+    margin-right: 1px;
+    text-decoration-color: rgb(250, 250, 250);
+    color: rgb(244, 244, 248);
+    background-image: url(../images/starfield.avif);
+    background-repeat: no-repeat;    
+    background-size: 100% auto;
+}
+
+.image {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(../images/1544645301309.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% auto; 
+    background-position: center;     
+}   
+
+.bio {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.projects {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.quotes {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.bioinfo, .projlist {
+    margin-top: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.quotetext {
+    margin-top: 50px;
+    color: rgb(38, 22, 51);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
