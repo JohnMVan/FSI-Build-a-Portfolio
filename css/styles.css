@@ -4,7 +4,6 @@ html, body {
     background-image: url(../images/photo-1521449256184-170b4a4c437c.avif); 
     background-repeat:  no-repeat;
     background-size: 100% auto;
-
 }
 
 .container {
@@ -102,3 +101,68 @@ a:hover {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
+
+.projcontainer {
+    height: 100%;
+    width: 100vw;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 600px 20px;    
+    gap: 10px;   
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.projcontainer div {
+    padding: 10px;
+    border: 1px solid rgb(126, 36, 36); 
+}
+
+.here{
+    color: brown;
+    text-align: center;
+}
+
+.here:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.goback {
+    text-align: left;
+    padding-left: 50px;    
+}
+
+.firstproj {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.secondproj {
+    /* grid-column-start: 2; */
+    /* grid-column-end: 3; */
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.thirdproj {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.projheading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.skills {
+    list-style: square;
+}
+
